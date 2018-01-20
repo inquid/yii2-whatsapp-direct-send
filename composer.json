@@ -1,0 +1,21 @@
+{
+    "name": "inquid/yii2-whatsapp-direct-send",
+    "description": "Whatsapp utilities for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","whatsapp","phone","messenger","message"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Inquid Inc",
+            "email": "luisarmando1234@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "inquid\\whatsappdirect\\": "src/"
+        }
+    }
+}
